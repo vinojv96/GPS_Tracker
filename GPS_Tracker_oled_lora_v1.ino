@@ -14,8 +14,8 @@
 float latitude , longitude;
 String  lat_str , lng_str;
 const char *ssid =  "Vino";     // Enter your WiFi Name
-const char *pass =  "vinoth@1996"; // Enter your WiFi Password
-char auth[] = "FpxjhiGZ-lS7Hk7eweAOdVzt6FmVfVWn"; 
+const char *pass =  "Secret"; // Enter your WiFi Password
+char auth[] = "Secret"; 
 WidgetMap myMap(V0); 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RST);
 WiFiClient client;
